@@ -1,3 +1,4 @@
+    
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!doctype html>
 <html>
@@ -21,7 +22,6 @@ th {
 </style>
 </head>
 <body>
-
 	<%@ include file="/WEB-INF/jsp/header.jsp"%>
 	<h2>글 목록</h2>
 	<p>

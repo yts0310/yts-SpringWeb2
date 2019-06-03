@@ -22,6 +22,9 @@
 		<mvc:interceptor>
 			<mvc:mapping path="/member/**" /> <!-- 별하나 = 해당url 별2개 = 하위전부 -->
 			<mvc:mapping path="/article/add*" />
+			<mvc:mapping path="/article/update*" />
+			<mvc:mapping path="/article/delete" />
+			<mvc:mapping path="/letter/**" />
 			<bean class="com.yts.chap13.AuthCheckInterceptor" />
 		</mvc:interceptor>
 	</mvc:interceptors>

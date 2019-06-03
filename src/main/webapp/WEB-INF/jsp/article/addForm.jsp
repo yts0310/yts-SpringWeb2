@@ -14,8 +14,7 @@
 	<form action="./app/article/add" method="post">
 		<p>제목 :</p>
 		<p>
-			<input type="text" name="title" maxlength="100" style="width: 100%;"
-				required>
+			<input type="text" name="title" maxlength="100" style="width: 100%;" required>
 		</p>
 		<p>내용 :</p>
 		<p>
